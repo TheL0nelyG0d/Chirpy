@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/TheL0nelyG0d/Chirpy/internal/auth"
+	"github.com/Thel0nelyG0d/Chirpy/internal/auth"
 )
 
 func (cfg *apiConfig) handlerUsersUpdate(w http.ResponseWriter, r *http.Request) {
